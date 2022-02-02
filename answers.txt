@@ -20,16 +20,16 @@
 
 • What does fast-forward in Git mean?
 
-     Fast_Forward in Git is nothing but reaching the target branch from the source branch by just moving the pointer forward without doing any extra commits. Let's suppose there is a master branch and we created a new feature branch from the master branch. Now both are at the same commit c1. 
-  Suppose we made changes to the feature branch and we have done commit c2. If we want to move the master branch to the latest changes git will use fast forward approach and move simply
- the pointer forward to c2 from c1.
+     Fast_Forward in Git is nothing but reaching the target branch from the source branch by just moving the pointer forward without doing any extra commits. Let's suppose there is a master branch and we created a new feature branch from the master branch. 
+     Now both are at the same commit c1. Suppose we made changes to the feature branch and we have done commit c2. If we want to move the master branch to the latest changes git will use fast forward approach and move simply
+     the pointer forward to c2 from c1.
    
 • Why should you have different branches?
 
      In git, the feasibility of working on the same code by multiple developers is provided with the help of branching. It helps to isolate each developer's work from other team members. 
-   It provides developers to create multiple branches and work on different bugs or new features simultaneously without breaking the code of others. 
+     It provides developers to create multiple branches and work on different bugs or new features simultaneously without breaking the code of others. 
 
 • In a project how many remote Git repositories do you usually have?
 
      In general, we can have as many remote git repositories for a single project. But at the initial creation of the project in git one default remote repo "origin" will be created that will have both fetch and push properties. These remote repositories help to keep define the different versions(releases) of the project separately.
-Not only at the release level it also helps the team to keep and maintain the code of QA and Dev in separate remote repo and work on them parallelly.
+     Not only at the release level it also helps the team to keep and maintain the code of QA and Dev in separate remote repo and work on them parallelly.
